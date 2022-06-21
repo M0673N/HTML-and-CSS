@@ -1,0 +1,24 @@
+body, ul, li {
+    display: flex;
+}
+
+body {
+    padding: 100px;
+    background-color: lightgray;
+}
+
+ul {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+li {
+    border: 5px solid black;
+    justify-content: stretch;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 black;
+    background-color: white;
+    margin: 20px;
+}

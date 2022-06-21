@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    margin-left: 400px;
+}
+
+.masonry {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200vh;
+    align-content: center;
+    gap: 30px;
+}
+
+.cards {
+    width: 213px;
+}
+
+img {
+    width: 213px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300vh;
+    align-content: center;
+    gap: 30px;
+}
+
+.flex .cards {
+    height: 583px;
+}

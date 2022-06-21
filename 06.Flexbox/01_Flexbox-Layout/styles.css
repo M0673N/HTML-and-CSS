@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+header, main, footer, aside {
+    flex-grow: 1;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px 2px gray;
+    height: 100px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+main {
+    flex-grow: 2;
+    width: 60%;
+}
+
+aside {
+    flex-grow: 1;
+    width: 30%;
+}
+
+footer {
+    height: 50px;
+}

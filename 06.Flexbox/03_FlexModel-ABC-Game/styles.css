@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px;
+}
+
+span {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 20px 40px;
+    min-width: 40px;
+    min-height: 20px;
+    text-align: center;
+}
+
+.uppercase {
+    order: -1;
+}

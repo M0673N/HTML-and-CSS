@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    float: right;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+}
+
+aside {
+    width: 20%;
+    vertical-align: top;
+    margin: 20px;
+}
+
+aside section {
+    margin: 50px 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.stuff-left {
+    width: 40%;
+}
+
+.stuff-right {
+    width: 40%;
+    padding-bottom: 50px;
+    color: gray;
+    border-left: 2px solid gray;
+    padding-left: 30px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.stuffwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionflex {
+    display: flex;
+    flex-direction: column;
+}
