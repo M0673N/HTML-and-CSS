@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    .tm-nav {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .tm-header-inner {
+        padding: 40px 15px;
+    }
+
+    .tm-section-title {
+        margin-inline: auto;
+    }
+
+    .tm-gallery-page {
+        margin: unset;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .tm-cta-section {
+        width: unset;
+    }
+
+    .tm-gallery {
+        margin-left: 0;
+    }
+
+    .tm-cta-section > article:nth-child(1) {
+        justify-content: center;
+    }
+}

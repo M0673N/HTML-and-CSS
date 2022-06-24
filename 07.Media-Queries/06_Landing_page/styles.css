@@ -1,0 +1,17 @@
+/* TODO: Solve the problem properly */
+
+body {
+    height: auto;
+}
+
+.logo-text {
+    display: inline-block;
+}
+
+.logo-purple {
+    color: purple;
+}
+
+.top-nav li {
+    display: inline-block;
+}
