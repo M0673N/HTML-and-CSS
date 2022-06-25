@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+html {
+    font-family: Raleway, sans-serif;
+}
+
+.first {
+    position: relative;
+    background-color: #EFEFEF;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px;
+}
+
+.first i {
+    cursor: pointer;
+}
+
+.first nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.first nav p {
+    font-size: 1.2rem;
+}
+
+.first img {
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    width: 600px;
+    height: auto;
+}
+
+.first header {
+    display: flex;
+    gap: 10px;
+    margin: 100px 0 40px 50px;
+}
+
+.first h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.first h1:last-of-type {
+    font-weight: 100;
+}
+
+.first > p {
+    margin-left: 50px;
+    font-style: italic;
+    line-height: 1.8rem;
+    width: 500px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.22rem;
+}
+
+.first .borderLeft {
+    height: 70px;
+    border-left: 1px solid black;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.second {
+    position: relative;
+    background-color: #EFEFEF;
+    height: 70vh;
+    margin: 0 50px 50px 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.second img {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    width: 450px;
+    height: auto;
+}
+
+.second .wrapper {
+    width: 550px;
+    margin-top: 75px;
+    margin-right: 120px;
+}
+
+.second .dash {
+    border-top: 1px solid black;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.second header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.second h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.second h1:last-of-type {
+    font-weight: bold;
+}
+
+.second p {
+    font-style: italic;
+    line-height: 1.8rem;
+    font-family: "Times New Roman", sans-serif;
+    margin-bottom: 30px;
+}
+
+.second .icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.second .icons i {
+    color: #909090
+}
+
+.third {
+    background-image: url("images/thumb-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px;
+}
+
+.fourth {
+    position: relative;
+    background-color: #EFEFEF;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px;
+}
+
+.fourth img {
+    position: absolute;
+    top: 100px;
+    right: 130px;
+    width: 600px;
+    height: auto;
+}
+
+.fourth header {
+    display: flex;
+    gap: 10px;
+    margin: 100px 0 40px 50px;
+}
+
+.fourth h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.fourth h1:last-of-type {
+    font-weight: 100;
+}
+
+.fourth > p {
+    margin-left: 50px;
+    font-style: italic;
+    line-height: 1.8rem;
+    width: 500px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.22rem;
+}
+
+.fourth .borderLeft {
+    height: 70px;
+    border-left: 1px solid black;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.fifth {
+    position: relative;
+    background-color: #EFEFEF;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px;
+}
+
+.fifth img {
+    width: 500px;
+    height: auto;
+}
+
+.fifth .thumb1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.fifth .thumb3 {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.fifth .thumb2 {
+    position: absolute;
+    top: 115px;
+    left: 425px;
+    z-index: 2;
+    width: 600px;
+    height: auto;
+}
+
+.last {
+    background-color: #EFEFEF;
+    height: 70vh;
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.last h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.last h1:last-of-type {
+    font-weight: 100;
+}
+
+.last > p {
+    font-style: italic;
+    line-height: 1.8rem;
+    width: 1050px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.22rem;
+    text-align: center;
+}
+
+.last form {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.last input {
+    width: 40%;
+    padding: 12px;
+    border: 2px solid black;
+    background-color: #EFEFEF;
+}
+
+.last textarea {
+    width: 86%;
+    background-color: #EFEFEF;
+    border: 2px solid black;
+    padding: 20px;
+    resize: none;
+    height: 100px;
+}
+
+.last textarea::placeholder {
+    color: black;
+    font-size: 1.1em;
+    font-family: Raleway, sans-serif;
+}
+
+.last input::placeholder {
+    color: black;
+    font-size: 1.1em;
+    font-family: Raleway, sans-serif;
+}
+
+.last button {
+    width: 92%;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.last .footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    margin-left: 0;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+}
